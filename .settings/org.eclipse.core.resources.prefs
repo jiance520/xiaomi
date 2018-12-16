@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebRoot/js=GBK
+encoding//WebRoot/js/cart.js=UTF-8
+encoding//WebRoot/js/homepage.js=UTF-8
+encoding//src/com/action/RegisterAction.java=GBK
+encoding//src/com/alipay/config=UTF-8
+encoding//src/com/dao/IM_categoryDao.java=GBK
+encoding//src/com/util/JdbcUtil.java=GBK
+encoding//src/log4j.properties=GBK
+encoding//src/xiaomi\u5EFA\u8868.sql=GBK
+encoding/<project>=GBK

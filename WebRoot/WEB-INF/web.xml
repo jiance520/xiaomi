@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>xiaomi</display-name>
+  <listener>
+    <listener-class>com.action.ProjectListenter</listener-class>
+  </listener>
+
+
+  <servlet>
+    <servlet-name>RegisterAction</servlet-name>
+    <servlet-class>com.action.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>image</servlet-name>
+    <servlet-class>com.action.ImageAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxLoginAction</servlet-name>
+    <servlet-class>com.action.AjaxLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClearSessionAction</servlet-name>
+    <servlet-class>com.action.ClearSessionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodAction</servlet-name>
+    <servlet-class>com.action.GoodAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IndexAction</servlet-name>
+    <servlet-class>com.action.IndexAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopAction</servlet-name>
+    <servlet-class>com.action.ShopAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckCodeAction</servlet-name>
+    <servlet-class>com.action.CheckCodeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountsAction</servlet-name>
+    <servlet-class>com.action.AccountsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyOrderAction</servlet-name>
+    <servlet-class>com.action.ModifyOrderAction</servlet-class>
+  </servlet>
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>image</servlet-name>
+    <url-pattern>/ImageAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxLoginAction</servlet-name>
+    <url-pattern>/AjaxLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearSessionAction</servlet-name>
+    <url-pattern>/ClearSessionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodAction</servlet-name>
+    <url-pattern>/GoodAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexAction</servlet-name>
+    <url-pattern>/IndexAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopAction</servlet-name>
+    <url-pattern>/ShopAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeAction</servlet-name>
+    <url-pattern>/CheckCodeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountsAction</servlet-name>
+    <url-pattern>/AccountsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyOrderAction</servlet-name>
+    <url-pattern>/ModifyOrderAction</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index2.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>IndexAction</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

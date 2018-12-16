@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+/********************公共样式*****************************/
+body,div,h1,h2,h3,h4,h5,a,p,input,ul,li,span,tt,i,img{ margin:0px; padding:0px;}
+
+body{ font:normal 12px/1 "Microsoft YaHei";}
+
+a{ text-decoration:none;}
+
+a:hover{ color:#FF7D34;}
+
+a:focus{ outline:0px none;}
+
+ul{ list-style-type:none;}
+
+img{ border:0px none;}
+
+.clearfix:after{ clear:both;}
+
+.clearfix:before,.clearfix:after{content:""; display:table;}
+
+/********************登陆页面样式*****************************/
+.login_body{ background-color:#F8F8F8;
+			 line-height:1.5;
+			 color:#333;
+			 }
+
+.login_main{ position:relative;
+			 height:100%;
+			 min-height:780px;
+			 overflow:hidden;
+			 }
+
+.login_container{ text-align:center;
+				 width:100%;
+				 position:absolute;
+				 top:50%;
+				 left:0px;
+				 margin-top:-360px;
+				 }
+
+.login_logo{ height:80px;
+			 margin-bottom:20px;
+			 text-align:center;
+			}
+
+.login_title{ font-size:26px;
+			  margin-bottom:10px;
+			  color:#000;
+			}
+
+.login_extand{ font-size:14px;
+			   margin-bottom:30px;
+			   color:#8D8D8D;
+			 }
+.login_extand a{ color:#8D8D8D;}
+
+.login_extand a:hover{color:#FF7D34;}
+
+.login_table{ text-align:left;}
+
+.login_in{ margin: 0px auto;
+		   display:block !important;
+		   width:324px;
+		   padding-top:10px;
+		   position:relative;
+		   }
+
+.user_pwd{ position:relative;
+		   margin-bottom:16px;
+		   z-index:30px;
+		  
+		   }
+
+
+  .user_pwd input{ width:298px;
+				   display:block;
+				   height:20px;
+				   line-height:20px;
+				   padding:12px 10px;
+				   border:1px solid #E6E6E6;
+				   color:#000;
+				   font-size:14px;
+				   font-weight:bold;
+				   border-radius:6px 6px 0px 0px;
+				   font-family:"Microsoft YaHei";
+				   -webkit-box-shadow:inset 0 0 15px rgba(0,0,0,0.3);
+				   -moz-appearance: none;
+				   -moz-placeholder:#DEDEDE;
+				   }
+.user_pwd input:focus{box-shadow:inset 0 0 10px rgba(0,0,0,0.1);}
+
+ /*.user_pwd i{ position:absolute;
+						   left:11px;
+						   top:13px;
+						   font-style:normal;
+						   color:#DEDEDE;
+						   font-size:14px;
+						   line-height:20px;
+						   display:inline-block;
+						   //visibility:hidden !important;
+						   }*/
+
+.login_user{ position:relative;}
+
+.login_error{ display:none;
+			  width:300px;
+			  background:#FFF;
+			  height:18px;
+			  line-height:16px;
+			  position:absolute;
+			  top:14px;
+			  left:10px;
+			  }
+
+.login_error em{ background:url(../images/sprite_all_82.png) -60px                  -38px no-repeat;
+				 display:inline-block;
+				 width:14px;
+				 height:14px;
+				 vertical-align:middle;
+				 margin-right:6px;
+				 }
+
+.login_error span{ color:#FF7448;
+				   vertical-align:middle;
+				   font-size:14px;}
+
+.login_pwd{ position:relative; z-index:20px;}
+
+  .login_pwd input{ border-top:none;
+				    border-radius:0px 0px 6px 6px;
+					
+				   }
+ .login_user input::-moz-placeholder { color:#DEDEDE;}
+
+.login_pwd input::-moz-placeholder { color:#DEDEDE;}
+
+.login_now{ margin-top:16px;
+			background:#FF7A4D;
+			color:#FFF;
+			border:1px solid #FF7549;
+			cursor:pointer;
+			border-radius:6px;
+			display:block;
+			font-size:16px;
+			font-family:"Microsoft YaHei";
+			height:44px;
+			line-height:44px;
+			text-align:center;
+			width:320px;
+			}
+
+.login_now:hover{ opacity:0.8;}
+
+.other_way{ height:18px;
+			margin-top:16px;
+			}
+
+.two_way{ color:#999;
+          position:relative;
+		  float:right;
+		  text-align:right;
+		  }
+.two_way a{color:#999;}
+
+.two_way a:hover{color:#FF7D34;}
+
+.to_register{ margin-top:16px;
+			  background-color:#FFF;
+			  border:1px solid #E5E5E5;
+			  border-radius:6px;
+			  color:#7C7C7C;
+			  display:block;
+			  font-size:16px;
+			  font-family:"Microsoft YaHei";
+			  height:44px;
+			  line-height:44px;
+			  text-align:center;
+			  width:320px;
+			  }
+
+.to_register:hover{ color:#000;}
+
+
+
+.login_foot{ text-align:center;
+			 padding-bottom:20px;
+			 position:absolute;
+			 bottom:0px;
+			 left:0px;
+			 width:100%;
+			 }
+
+.login_foot div{ margin-bottom:10px;}
+
+.login_foot div a{ display:inline-block;
+			   	   padding:0px 7px;
+			       line-height:1.2;
+			       color:#919191;
+			     }
+
+.login_foot div a:hover{ color:#545454; font-weight:bold;}
+
+.font_style .simple{ color:#545454;
+					 font-weight:bold;
+					 }
+
+.login_foot p{ color:#999;}
+
+
+.qrlogin_back{ width:100%;
+			  height:100%;
+			  z-index:200px;
+			  background-color:#000;
+			  opacity:0.5;
+			  position:absolute;
+			  top:0px;
+			  left:0px;
+			  display:none;
+			  }
+.qrlogin_container{position:absolute;
+			    z-index:201;
+				width:640px;
+				height:420px;
+				background-color:#FFF;
+				top:50%;
+				left:50%;
+				margin-left:-300px;
+				margin-top:-200px;
+				display:none;
+				}
+
+.qrlogin_close{ cursor:pointer;
+				width:60px;
+				height:60px;
+				position:absolute;
+				left:640px;
+				top:0px;
+				background:url(../images/guanbi.png) no-repeat;
+				font-size:0px;
+				}
+.qrlogin_iframe{ width:340px;
+				 height:340px;
+				 margin-top:-170px;
+				 margin-left:-170px;
+				 //border:0px none;
+				 position:absolute;
+				 z-index:300;
+				 top:50%;
+				 left:50%;
+				 overflow:hidden;
+				 
+				 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
